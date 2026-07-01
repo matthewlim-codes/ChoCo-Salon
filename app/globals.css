@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+  background: #ffffff;
+  color: #111111;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #111111;
+  color: #fff4d7;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
