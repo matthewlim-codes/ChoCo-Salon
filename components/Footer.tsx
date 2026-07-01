@@ -1,4 +1,4 @@
-import { ExternalLink, Instagram, MapPin } from "lucide-react";
+import { Camera, ExternalLink, MapPin } from "lucide-react";
 
 import { businessInfo } from "@/lib/site-data";
 
@@ -19,7 +19,7 @@ export function Footer() {
             href="https://www.instagram.com/"
             className="inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-3 text-sm font-bold text-white transition-all duration-300 hover:scale-[1.02] hover:border-white hover:bg-white hover:text-black"
           >
-            <Instagram className="size-4" aria-hidden="true" />
+            <Camera className="size-4" aria-hidden="true" />
             Instagram
           </a>
           <a

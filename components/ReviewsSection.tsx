@@ -42,7 +42,9 @@ export function ReviewsSection() {
                   <Star key={index} className="size-4 fill-black" aria-hidden="true" />
                 ))}
               </div>
-              <p className="mt-5 flex-1 text-base leading-7 text-neutral-700">"{review.quote}"</p>
+              <p className="mt-5 flex-1 text-base leading-7 text-neutral-700">
+                &ldquo;{review.quote}&rdquo;
+              </p>
               <div className="mt-7 border-t border-black/10 pt-5">
                 <div className="flex items-center gap-2">
                   <p className="font-black tracking-[-0.03em] text-black">{review.name}</p>
